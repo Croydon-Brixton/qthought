@@ -26,6 +26,15 @@ The project is structured as follows: users can customize the protocol of the ex
     - Copenhagen interpretation [qthought/interpretations/copenhagen_theory][CopT]
     - collapse theories [qthought/interpretations/collapse_theory][ColT]
 
+## Basic elements to run
+
+To run the protocol, one needs to:
+    - specify the interpretation, namely *observe*, *forward_inference* and *backward_inference* in your interpretation description file;
+    - specify the logic employed by agents, namely the method their predictions are glued together in *consistency*;
+    - describe the protocol by summing it out of elements of *ProtocolStep* class.
+
+If your protocol is correct and meets the requirements elaborated on in *Requirements* class, it yeilds the prediction after a run.
+
 ## Please cite
 
 When using ProjectQ for research projects, please cite
