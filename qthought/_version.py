@@ -9,16 +9,6 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from ._version import __version__
-from qthought.logicalReasoning import consistency
-from qthought.interpretations import collapse_theory, copenhagen_theory
-from qthought.utils import arithmeticgates, general, subspace
 
-#from qthought.int
-#from . import agents
-#from . import quantumsystem
-#from . import C
-#from . import inference_procedures
-
-from .quantumsystem import QuantumSystem
-from .protocol import ProtocolStep, Protocol
+"""Define version number here and read it from setup.py automatically"""
+__version__ = "0.1.0"

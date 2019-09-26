@@ -1,0 +1,4 @@
+numpy
+projectq
+termcolor
+scipy
