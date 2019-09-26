@@ -3,11 +3,11 @@ from itertools import chain
 
 from projectq.ops import get_inverse
 
-from .utils.arithmeticgates import Add
-from .utils.subspace import overlaps_with_subspace
+from ..utils.arithmeticgates import Add
+from ..utils.subspace import overlaps_with_subspace
 
-from .quantumsystem import QuantumSystem
-from .agents import InferenceTable
+from ..quantumsystem import QuantumSystem
+from ..agents import InferenceTable
 
 
 # ------------------1. Observe procedure  ------------------------------------------------------------------------------

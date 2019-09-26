@@ -1,10 +1,17 @@
+import sys
+import os
+import warnings
+# to run the example, set the following path to the folder path of qthought on your machine
+sys.path.append(os.path.abspath('/Users/nuri/qthought/qthought')) 
+warnings.filterwarnings('ignore')
+
 import numpy as np
 from projectq.meta import Control
 from projectq.ops import H, BasicGate, Measure
 
-from .copenhagen_theory import observe
-from .protocol import ProtocolStep
-from .utils.general import readout, print_state
+from qthought.interpretations.copenhagen_theory import observe
+from qthought.protocol import ProtocolStep
+from qthought.utils.general import readout, print_state
 
 
 # TODO: Think of a way to more strongly implement the correct timing of the protocol and protocol steps. Also think
