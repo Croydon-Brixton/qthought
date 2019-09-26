@@ -9,7 +9,7 @@ The software is written in a quantum programming language, [ProjectQ], and as su
 Our software platform is based on [ProjectQ]. To install it, please follow the instructions in [Tutorials]. 
 To access Jupyter notebooks, follow guidelines at the [Jupyter website].
 
-**Warning**: all imports in this release are carried out in terms of a local path. Please set path to the folder path of qthought on your machine for your personal use.
+**Warning**: all imports in this release are carried out in terms of a local path. Wherever necessary, please set path to the folder path of qthought on your machine for your personal use.
 
 
 ## Documentation and examples
