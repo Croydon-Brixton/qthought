@@ -9,6 +9,8 @@ The software is written in a quantum programming language, [ProjectQ], and as su
 Our software platform is based on [ProjectQ]. To install it, please follow the instructions in [Tutorials]. 
 To access Jupyter notebooks, follow guidelines at the [Jupyter website].
 
+**Warning**: all imports in this release are carried out in terms of a local path. Please set path to the folder path of qthought on your machine for your personal use.
+
 
 ## Documentation and examples
 
@@ -31,14 +33,15 @@ The project is structured as follows: users can customize the protocol of the ex
 To run the protocol, one needs to:
     - specify the interpretation, namely *observe*, *forward_inference* and *backward_inference* in your interpretation description file;
     - specify the logic employed by agents, namely the method their predictions are glued together in *consistency*;
-    - describe the protocol by summing it out of elements of *ProtocolStep* class.
+    - describe the protocol by summing it out of elements (some of them call *observe*, *forward_inference*,*backward_inference* and *consistency*) of *ProtocolStep* class.
 
-If your protocol is correct and meets the requirements elaborated on in *Requirements* class, it yeilds the prediction after a run.
+If your protocol is correct and meets the requirements elaborated on in *Requirements* class, it yeilds the prediction after a run. You can print it in a format of an inference table, or follow one of the examples (a protocol for Frauchiger-Renner thought experiment) to print it out in a user-friendly way.
 
 ## Please cite
 
-When using ProjectQ for research projects, please cite
-  - [arxiv number to appear]
+When using QThought for research projects, please cite
+  - [arxiv number to appear] 
+As we are still in the process of preparing the arXiv submission, we kindly ask you to cite this repository instead.
 
 ## Authors
 
