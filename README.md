@@ -9,6 +9,9 @@ The software is written in a quantum programming language, [ProjectQ], and as su
 Our software platform is based on [ProjectQ]. To install it, please follow the instructions in [Tutorials]. 
 To access Jupyter notebooks, follow guidelines at the [Jupyter website].
 
+To install the pre-alpha version, you can use
+```pip install -i https://test.pypi.org/simple/ qthought```
+
 **Warning**: all imports in this release are carried out in terms of a local path. Wherever necessary, please set path to the folder path of qthought on your machine for your personal use.
 
 
