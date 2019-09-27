@@ -26,11 +26,11 @@ The project is structured as follows: users can customize the protocol of the ex
 
 0. Schematic software structure and motivation: [qthought/software_structure][SoftStr]
 1. Protocol examples: 
-    - simple protocols [qthought/simple examples][SimplEx]
-    - Frauchiger-Renner thought experiment [qthought/Frauchiger-Renner example][FREx]
+    - simple protocols [qthought/simpleExamples][SimplEx]
+    - Frauchiger-Renner thought experiment [qthought/FrauchigerRennerExample][FREx]
 
 2. Consistency rules, logical reasoning:
-    - modal logic [qthought/logical reasoning][ModalC]
+    - modal logic [qthought/logicalReasoning][ModalC]
 
 3. Interpretations:
     - Copenhagen interpretation [qthought/interpretations/copenhagen_theory][CopT]
@@ -65,9 +65,9 @@ QThought is licensed under the MIT License.
 [ProjectQ]: <https://projectq.ch>
 [Tutorials]: <https://projectq.readthedocs.io/en/latest/tutorials.html>
 [Jupyter website]: <https://jupyter.readthedocs.io/en/latest/content-quickstart.html>
-[SimplEx]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/simple%20examples>
-[FREx]: <https://github.com/Croydon-Brixton/qthought/tree/master/qthought/Frauchiger-Renner%20example>
-[ModalC]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/logical%20reasoning/consistency.py>
+[SimplEx]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/simpleExamples>
+[FREx]: <https://github.com/Croydon-Brixton/qthought/tree/master/qthought/FrauchigerRennerExample>
+[ModalC]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/logicalReasoning/consistency.py>
 [CopT]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/interpretations/copenhagen_theory.py>
 [ColT]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/interpretations/collapse_theory.py>
 [SoftStr]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/software_structure.pdf>
