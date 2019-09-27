@@ -10,10 +10,14 @@ Our software platform is based on [ProjectQ]. To install it, please follow the i
 To access Jupyter notebooks, follow guidelines at the [Jupyter website].
 
 To install the pre-alpha version, you can use
-```pip install -i https://test.pypi.org/simple/ qthought```
+```
+pip install -i https://test.pypi.org/simple/ qthought
+```
 
 Alternatively, you can clone this github repository to your local machine, navigate to within the qthought folder and call
-```pip install .``` 
+```
+pip install .
+``` 
 
 
 ## Documentation and examples
