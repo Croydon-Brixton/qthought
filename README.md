@@ -55,10 +55,7 @@ In the future releases, we plan to extend this list by adding Bohmian mechanics 
 
 ## Please cite
 
-When using QThought for research projects, please cite
-  - [arxiv number to appear] 
-  
-As we are still in the process of preparing the arXiv submission, we kindly ask you to cite this repository instead.
+When using QThought for research projects, please cite this repository.
 
 ## Authors
 
