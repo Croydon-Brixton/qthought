@@ -43,7 +43,15 @@ To run the protocol, one needs to:
     - specify the logic employed by agents, namely the method their predictions are glued together in *consistency*;
     - describe the protocol by summing it out of elements (some of them call *observe*, *forward_inference*,*backward_inference* and *consistency*) of *ProtocolStep* class.
 
-If your protocol is correct and meets the requirements elaborated on in *Requirements* class, it yeilds the prediction after a run. You can print it in a format of an inference table, or follow one of the examples (a protocol for Frauchiger-Renner thought experiment) to print it out in a user-friendly way.
+If your protocol is correct and meets the requirements elaborated on in *Requirements* class, it yeilds the prediction after a run. 
+
+For detailed instructions for how to assemble the protocol, please refer to the explanation provided in the Jupyter notebook [simple example I][Simple1].
+
+## Current state of development
+
+We have currently implemented two interpretations, namely, Copenhagen and collapse, and one model of logical reasoning (classical modal logic). Additionally, we have three example protocols that one can run on their own. 
+
+In the future releases, we plan to extend this list by adding Bohmian mechanics and many-worlds interpretations, and weakening the logical reasoning structure.
 
 ## Please cite
 
@@ -58,7 +66,7 @@ The first release of QThought was developed by Simon Mathis, Nuriya Nurgalieva, 
 
 ## License
 
-QThought is licensed under the MIT License.
+QThought is licensed under the [MIT License][MIT].
 
 
 
@@ -71,3 +79,5 @@ QThought is licensed under the MIT License.
 [CopT]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/interpretations/copenhagen_theory.py>
 [ColT]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/interpretations/collapse_theory.py>
 [SoftStr]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/software_structure.pdf>
+[Simple1]: <https://github.com/Croydon-Brixton/qthought/blob/master/qthought/simpleExamples/simple%20example%20I.ipynb>
+[MIT]: <https://www.opensource.org/licenses/MIT>
