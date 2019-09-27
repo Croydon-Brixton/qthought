@@ -16,9 +16,6 @@ Alternatively, you can clone this github repository to your local machine, navig
 ```pip install .``` 
 
 
-**Warning**: all imports in this release are carried out in terms of a local path. Wherever necessary, please set path to the folder path of qthought on your machine for your personal use.
-
-
 ## Documentation and examples
 
 The project is structured as follows: users can customize the protocol of the experiment, the inner workings of agents (e.g. the quantum circuit that models their reasoning process), the abstract logical system used (which may or not allow agents to combine premises and make inferences about each other's reasoning), and the interpretation of quantum theory used by different agents (for example collapse, Copenhagen, many worlds or Bohmian mechanics). In the corresponding folders, we give examples of how one can program all of the mentioned above, and a PDF file with a technical explanation; the list of the examples is going to extend over time. Additionally, all protocols are accompannied by a Jupyter notebook, explaining every step in a simple fashion.
