@@ -9,16 +9,4 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from ._version import __version__
-#import qthought.logicalReasoning
-#import qthought.interpretations
-#import qthought.utils
-
-#from qthought.int
-#from . import agents
-#from . import quantumsystem
-#from . import C
-#from . import inference_procedures
-
-from .quantumsystem import QuantumSystem
-from .protocol import ProtocolStep, Protocol
+from . import consistency
