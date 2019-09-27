@@ -1,9 +1,10 @@
 import sys
 import os
 import warnings
-# to run the example, set the following path to the folder path of qthought on your machine
-sys.path.append(os.path.abspath('/Users/nuri/qthought/qthought')) 
-warnings.filterwarnings('ignore')
+
+# if pip install doesn't work for you, please uncomment and set to local path:
+#sys.path.append(os.path.abspath('/Users/nuri/qthought/qthought')) 
+#warnings.filterwarnings('ignore')
 
 import numpy as np
 from projectq.meta import Control

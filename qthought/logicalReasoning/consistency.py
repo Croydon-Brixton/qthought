@@ -6,10 +6,12 @@ Library corresponding to assumption C in the RF paper.
 Contains the semantics of the inference, i.e. the updating of inference
 tables.
 """
-import sys
-import os
-# to run the example, set the following path to the folder path of qthought on your machine
-sys.path.append(os.path.abspath('/Users/nuri/qthought/qthought')) 
+
+# if pip install doesn't work for you, please uncomment and set to local path:
+#import sys
+#import os
+#sys.path.append(os.path.abspath('/Users/nuri/qthought/qthought')) 
+
 from qthought.agents import InferenceTable
 
 def consistency(tbl_pre: InferenceTable, tbl_post: InferenceTable):
